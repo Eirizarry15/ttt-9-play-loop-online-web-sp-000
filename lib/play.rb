@@ -37,11 +37,12 @@ end
 
 # Define your play method below
 
-def play()
-
-
-
-  
+def play(board)
+  spot = 0
+until spot < 9
+spot += 1
+turn(board)
+end
 end
 
 
